@@ -1,0 +1,76 @@
+.ex-1-square {
+    transition: 1s ;
+    /* opacity: 0; */
+}
+.ex-1-square:hover {
+    /* opacity: 1; */
+    background: red;
+}
+.ex-2-square {
+    transition: 1s;
+
+}
+.ex-2-square:active {
+    width: 100%;
+}
+.ex-3-square {
+    transition: 1s;
+}
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+.ex-4-square {
+    transition: 1s;
+}
+.ex-4-square:hover {
+    opacity: 0;
+}
+.ex-5-square {
+    transition: 1s;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-6-img {
+    /* transition: 1s; */
+}
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+.ex-7-img {
+    transition: 1s;
+}
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(1);
+
+}
+.ex-8-img {
+    transition: 1s;
+}
+.ex-8-img:hover {
+    filter: grayscale(1) sepia(1);
+    border-radius: 20px;
+}
+.ex-9-img {
+    transition: 1s;
+}
+.ex-9-img:hover {
+    filter: grayscale(1) sepia(1);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+@keyframes rotazione {
+    0% { transform: rotate(0deg);}
+        /* pensavo fossero necessari ma creano un brutto effeto delay ad ogni stadio  */
+    /* 25% {transform: rotate(90deg);} */
+    /* 50% {transform: rotate(180deg);} */
+    /* 75% {transform: rotate(270deg);} */
+    100% {transform: rotate(360deg);}
+}
+.ex-10-icon {
+    /* transition: 1s; */
+
+}
+.ex-10-icon:hover {
+    animation: rotazione 5s ;
+}
